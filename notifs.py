@@ -21,5 +21,5 @@ def notifs():
 
 
 scheduler = BlockingScheduler()
-scheduler.add_job(notifs, 'interval', minutes=0.2)
+scheduler.add_job(notifs, 'interval', minutes=7)
 scheduler.start()
